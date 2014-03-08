@@ -1,0 +1,12 @@
+This was a quickly written project to help me rearrange the furniture in my new apartment.  This project has scope for a lot of further development in the future.
+
+<h3>Links</h3>
+
+<a href="http://www.aidansean.com/floorplan">Live page</a>
+<a href="https://github.com/aidansean/floorplan">GitHub repository</a>
+
+<h3>Overview</h3>
+
+Furniture is modeled using rectangles (future versions may have more sophisticated shapes) and can be dragged around on an HTML canvas.  Initially collision detection was implemented and items of furniture were not allowed to intersect.  However this was removed as it impeded the movement of shapes.  The user can drag around items of furniture, with event listeners keeping track of the actions of the user.
+
+The challenges for this project had already been overcome in previous projects.  These include collision detection of rectangles, allowing the user to interact with shapes on the canvas, and writing a custom markup language to keeping track of the shapes.
